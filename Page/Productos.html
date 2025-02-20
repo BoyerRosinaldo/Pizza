@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title>The Pizzas House</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     </head>
+      <body>
+         <!--Encabezado principal-->
+         <header>
+             <table width="100%" border="0" bgcolor="fac925">
+                 <tbody>
+                     <tr>
+                        <td>
+                         <img src="../dist/image/Logopizza.png" width="95">
+                        </td>
+                        <td>
+                         <h1>The Pizzas House</h1>
+                        </td>
+                        <td align="center">
+                         <nav>                            
+                             <table width="100" cellpadding="20">
+                                <tr>
+                                    <td>
+                                        <h3><a href="../index.html">Inicio</a></h3>
+                                     </td>
+                                     <td>
+                                        <h3><a href="Servicios.html">Servicios</a></h3>
+                                     </td>
+                                     <td>
+                                        <h3><a href="Productos.html">Productos</a></h3>
+                                     </td>
+                                     <td>
+                                        <h3><a href="Nosotros.html">Nosotros</a></h3>
+                                     </td>
+                                     <td>
+                                        <h3><a href="Contacto.html">Contacto</a></h3>
+                                     </td>
+                                </tr>
+                             </table>
+                         </nav>
+                        </td>
+                     </tr>
+                   </tbody>
+               </table>
+          </header>
+          <!--Contenedor-->
+            <main id="contenedor">
+                <table width="100%">
+                   <tbody>
+                        <tr>
+                          <td width="25%"></td>
+                          <td width="75%">
+                            <h1>Selecciona tu Pizza favorita y disfruta de un sabor espectacular.</h1></td>
+                      </tr>
+                 </tbody>
+               </table>
+                 <br><br><br><br>
+           </main> 
+          <table>
+             <tbody>
+                 <tr>
+                     <td width="5%"></td>
+                     <td width="30%">
+                       <table>
+                          <tbody>
+                             <tr>
+                                 <td>
+                                 <img width="300" height="200" src="../dist/image/pizza01.png">
+                                 </td>
+                                 <td>
+                                   <h3>	
+                                     PIZZA AMERICANA
+                                   </h3>
+                                 </td>
+                             </tr>
+                         </tbody>
+                       </table> 
+                         <p>Jamón Americano, Queso Mozzarella, Salsa.</p><br>
+                         <button onclick="agregarAlCarrito(' PIZZA AMERICANA')">Agregar al carrito</button></td>                        
+                     <td width="30%">
+                     <table>
+                         <tbody>
+                             <tr>
+                                <td>
+                                <img width="300" height="200" src="../dist/image/pizza02.png">
+                                </td>
+                                <td>
+                                  <h3>	
+                                    PIZZA HAWAIANA
+                                  </h3>
+                                </td>
+                             </tr>
+                          </tbody>
+                     </table>
+                      <p>Piña, Jamón Americano, Queso Mozzarella y Salsa de Tomate.</p><br>
+                      <button onclick="agregarAlCarrito(' PIZZA HAWAIANA')">Agregar al carrito</button></td>                        
+                     <td width="30%">
+                     <table>
+                         <tbody>
+                             <tr>
+                                 <td>
+                                  <img width="300" height="200" src="../dist/image/pizza03.png">
+                                 </td>
+                                 <td>
+                                 <h3>	
+                                    PIZZA CONTINENTAL
+                                 </h3>
+                                 </td>
+                             </tr>
+                         </tbody>
+                     </table>
+                      <p>Champiñones, Jamón Americano, Cebolla Roja, Queso Mozzarella y Salsa de Tomate.</p><br>
+                      <button onclick="agregarAlCarrito(' PIZZA CONTINENTAL')">Agregar al carrito</button></td>                        
+                      <td width="5%"></td>
+                  </tr>
+             </tbody> 
+         </table>
+         <table>
+             <br><br><br>
+             <tbody>
+                 <tr>
+                     <td width="5%"></td>
+                     <td width="30%">
+                     <table>
+                         <tbody>
+                              <tr>
+                                 <td>
+                                 <img width="300" height="200" src="../dist/image/mozzarella.png">
+                                 </td>
+                                 <td>
+                                   <h3>	
+                                     PIZZA MOZZARELLA
+                                   </h3>
+                                  </td>
+                               </tr>
+                          </tbody>
+                      </table> 
+                      <p>Doble Queso Mozzarella y Salsa de Tomate Artesanal.</p><br>
+                      <button onclick="agregarAlCarrito(' PIZZA MOZZARELLA')">Agregar al carrito</button> </td>                        
+                     <td width="30%">
+                     <table>
+                         <tbody>
+                             <tr>
+                                 <td>
+                                  <img width="300" height="200" src="../dist/image/caprese.png">
+                                 </td>
+                                 <td>
+                                 <h3>	
+                                    PIZZA CAPRESE
+                                 </h3>
+                                 </td>
+                               </tr>
+                          </tbody>
+                     </table>
+                        <p>Rodajas de Tomate, Queso Mozzarella, Salsa de Tomate y Albahaca.</p><br>
+                        <button onclick="agregarAlCarrito(' PIZZA CAPRESE')">Agregar al carrito</button></td>                        
+                     <td width="30%">
+                     <table>
+                         <tbody>
+                             <tr>
+                                 <td>
+                                  <img width="300" height="200" src="../dist/image/veggie ricca.png">
+                                 </td>
+                                 <td>
+                                 <h3>	
+                                    PIZZA VEGGIE RICCA
+                                 </h3>
+                                 </td>
+                             </tr>
+                          </tbody>
+                     </table>
+                       <p>Champiñones, Aceitunas Negras, Tomate Cherry, Albahaca, Aceite de Oliva, Mozzarella y Salsa de Tomate.</p><br>
+                       <button onclick="agregarAlCarrito(' PIZZA VEGGIE RICCA')">Agregar al carrito</button></td>                        
+                     <td width="5%"></td>
+                   </tr>
+               </tbody> 
+           </table>
+            <br><br><br>
+           <table>
+              <tbody>
+                   <tr>
+                       <td width="5%"></td>
+                       <td width="30%">
+                        <table>
+                           <tbody>
+                               <tr>
+                                  <td>
+                                   <img width="300" height="200" src="../dist/image/bbq.png">
+                                  </td>
+                                  <td>
+                                     <h3>	
+                                       PIZZA BBQ
+                                     </h3>
+                                    </td>
+                                </tr>
+                           </tbody>
+                       </table>
+                         <p>Carne de Pollo, Tocino Ahumado, Cebolla Blanca, Salsa BBQ, Queso Mozzarella y Salsa de Tomate.</p><br>
+                         <button onclick="agregarAlCarrito(' PIZZA BBQ')">Agregar al carrito</button>                                         
+                       <td width="30%">
+                        <table>
+                           <tbody>
+                               <tr>
+                                 <td>
+                                 <img width="300" height="200" src="../dist/image/carbonera.png">
+                                 </td>
+                                 <td>
+                                  <h3>	
+                                    PIZZA CARBONERA
+                                  </h3>
+                                 </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                        <p>Tocino, Champiñones, Queso Parmesano, Salsa Bechamel y Queso Mozzarella.</p><br>
+                        <button onclick="agregarAlCarrito(' PIZZA CARBONERA')">Agregar al carrito</button>                                  
+                       <td width="30%">
+                         <table>
+                             <tbody>
+                                  <tr>
+                                     <td>
+                                     <img width="300" height="200" src="../dist/image/española.png">
+                                     </td>
+                                     <td>
+                                       <h3>	
+                                        PIZZA ESPAÑOLA
+                                       </h3>
+                                     </td>
+                                  </tr>
+                             </tbody>
+                         </table>
+                            <p>Chorizo Español, Champiñones, Aceitunas Verdes y Negras, Cebolla Blanca, Mozzarella y S. de Tomate.</p><br>
+                            <button onclick="agregarAlCarrito(' PIZZA ESPAÑOLA')">Agregar al carrito</button>                      
+                        <td width="5%"></td>
+                  </tr>
+              </tbody> 
+          </table>
+          <script>
+             function agregarAlCarrito(pizza) {alert(pizza + " ha sido agregada al carrito.")}
+          </script>
+           <br><br><br>
+           <footer>
+            <table table width="100%" align="center" bgcolor="fac925">
+               <tr>
+                   <td align="center">
+                       <p><strong>TERMINOS Y CONDICIONES</strong></p>
+                       <div class="redes-sociales">
+                           <a href="https://www.facebook.com" target="_blank" style="margin-right: 20px;">
+                               <img src="../dist/image/i_facebook.png" width="35">
+                           </a>
+                           <a href="https://www.instagram.com" target="_blank" style="margin-right: 20px;">
+                               <img src="../dist/image/i_instagram.png"  width="35">
+                           </a>
+                           <a href="https://www.tiktok.com" target="_blank" style="margin-right: 20px;">
+                               <img src="../dist/image/i_tiktok.png"  width="35">
+                           </a>
+                           <p>Copyright &copy; 2025 The Pizzas House</p>
+                       </div>
+                   </td>
+               </tr>
+            </table>
+       </footer>
+   </body>    
+</html>
